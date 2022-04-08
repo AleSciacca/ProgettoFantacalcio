@@ -55,9 +55,9 @@ int main(){
                     for(int j=0;j<colonne;j++){
                         cout<<portier[i][j]<<" ";
                     }
-                }
-                cout<<endl;
+                    cout<<endl;
                     break;
+                }
             }
             cout<<"CERCHI ALTRI GIOCATORI?"<<endl;
             cin>>player;
