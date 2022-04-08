@@ -49,7 +49,7 @@ int main(){
 
         cout<<"INSERIRE IL NOME DEL GIOCATORE CHE STAI CERCANDO: ";
         cin>>player;
-        while(player == "fine"){
+        while(player != "fine"){
             for(int i=0;i<righe;i++){
                 if(player == portier[i][0]){
                     for(int j=0;j<colonne;j++){
