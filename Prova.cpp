@@ -53,7 +53,7 @@ int main(){
         while(player != "fine"){
             for(int i=0;i<righe;i++){
                 if(player == portier[i][0]){
-                    cout<<"Nome Squadra Q.A Q.I"<<endl;
+                    cout<<"Nome   Squadra   Q.A   Q.I"<<endl;
                     for(int j=0;j<colonne;j++){
                         cout<<portier[i][j]<<" ";
                     }
