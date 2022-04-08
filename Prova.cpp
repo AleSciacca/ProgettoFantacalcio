@@ -59,6 +59,8 @@ int main(){
                     break;
                 }
             }
+            cout<<"CERCHI ALTRI GIOCATORI?"<<endl;
+            cin>>player;
         }
     }
     return 0;
