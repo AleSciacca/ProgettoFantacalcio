@@ -6,8 +6,10 @@ using namespace std;
 
 int main(){
     int DIM=0;
+    int righe=65;
+    int colonne=4;
     string player;
-    string** portieri;
+    string portier[righe][colonne];
     int i,j;
 
     ifstream porta("portieri.txt");
@@ -25,34 +27,39 @@ int main(){
         string quotazione_iniziale_str="";
         int quotazione_iniziale=0;
 
+
         while(getline(porta,nome,';')){ 
-            i=0; //chiediamo al tool di andare avanti fino a quando non trova un carattere ";" ,tutto ciò che legge prima verra messo in cognome
+            j=0; //chiediamo al tool di andare avanti fino a quando non trova un carattere ";" ,tutto ciò che legge prima verra messo in cognome
             getline(porta,squadra,';');
             getline(porta,quotazione_attuale_str,';');
             getline(porta,quotazione_iniziale_str);
-
-            portieri[i][j] = nome;
-            portieri[i+1][j] = squadra;
-            portieri[i+2][j] = quotazione_attuale_str;
-            portieri[i+3][j] = quotazione_iniziale_str;
+            
+            
+            portier[i][j] = nome;
+            portier[i][j+1] = squadra;
+            portier[i][j+2] = quotazione_attuale_str;
+            portier[i][j+3] = quotazione_iniziale_str;
 
             DIM++;
-            j++;            
-        }  
-        porta.close(); porta.clear();
+            i++;            
+        }
 
-        cout<<DIM<<endl;
-
-        int righe=DIM;
-        int colonne=4;
+        righe=DIM;
+        colonne=4;
 
         cout<<"INSERIRE IL NOME DEL GIOCATORE CHE STAI CERCANDO: ";
         cin>>player;
-
-       /* for(int i=0;i<righe;i++){
-            if(player)
-        }*/
-
+        while(player == "fine"){
+            for(int i=0;i<righe;i++){
+                if(player == portier[i][0]){
+                    for(int j=0;j<colonne;j++){
+                        cout<<portier[i][j]<<" ";
+                    }
+                    cout<<endl;
+                    break;
+                }
+            }
+        }
     }
     return 0;
 }
