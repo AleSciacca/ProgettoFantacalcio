@@ -1,0 +1,65 @@
+Szczesny;Juventus;18;17
+Maignan;Milan;17;15
+Ospina;Napoli;17;1
+Handanovic;Inter;16;17
+Rui Patricio;Roma;14;14
+Strakosha;Lazio;14;1
+Musso;Atalanta;12;16
+Terracciano;Fiorentina;12;1
+Falcone;Sampdoria;11;1
+Skorupski;Bologna;11;9
+Consigli;Sassuolo;11;12
+Milinkovic-Savic V.;Torino;11;9
+Provedel;Spezia;11;1
+Silvestri;Udinese;10;10
+Sirigu;Genoa;10;8
+Vicario;Empoli;10;6
+Cragno;Cagliari;9;10
+Montipo';Verona;9;9
+Berisha;Torino;8;1
+Meret;Napoli;7;14
+Audero;Sampdoria;7;12
+Reina;Lazio;7;14
+Dragowski;Fiorentina;5;11
+Sepe;Salernitana;5;4
+Sportiello;Atalanta;4;1
+Radunovic;Cagliari;3;1
+Lezzerini;Venezia;3;5
+Romero S.;Venezia;3;5
+Maenpaa;Venezia;2;1
+Tatarusanu;Milan;2;1
+Belec;Salernitana;2;5
+Zoet;Spezia;2;7
+Neri;Venezia;1;1
+Piana;Udinese;1;1
+Molla;Bologna;1;1
+Berardi A.;Verona;1;1
+Pandur;Verona;1;1
+Padelli;Udinese;1;1
+Pegolo;Sassuolo;1;1
+Russo;Salernitana;1;1
+Perin;Juventus;1;1
+Ujkani;Empoli;1;1
+Mirante;Milan;1;1
+Gemello;Torino;1;1
+Ravaglia;Sampdoria;1;1
+Marchetti;Genoa;1;1
+Santurro;Udinese;1;1
+Rosati;Fiorentina;1;1
+Gasparini;Udinese;1;1
+Fuzato;Roma;1;1
+Satalino;Sassuolo;1;1
+Furlan;Empoli;1;1
+Rossi F.;Atalanta;1;1
+Bertinato;Venezia;1;1
+Radu I.;Inter;1;1
+Marfella;Napoli;1;1
+Bardi;Bologna;1;1
+Zovko;Spezia;1;1
+Semper;Genoa;1;1
+Adamonis;Lazio;1;1
+Boer;Roma;1;1
+Pinsoglio;Juventus;1;1
+Cordaz;Inter;1;1
+Fiorillo;Salernitana;1;1
+Aresti;Cagliari;1;1
