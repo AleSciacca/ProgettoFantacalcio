@@ -13,6 +13,8 @@ int main(){
     string layout[colonne]={"Nome","Squadra","Q.A","Q.I"};
     int i,j;
 
+    string addio="GRAZIE PER AVER USATO IL MIO TOOL <3";
+
     ifstream porta("portieri.txt");
 
     if(!porta){
@@ -65,5 +67,6 @@ int main(){
             cin>>player;
         }
     }
-    return 0;
+    cout<<addio;
+
 }
