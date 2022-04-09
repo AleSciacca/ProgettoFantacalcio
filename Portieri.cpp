@@ -7,10 +7,10 @@ using namespace std;
 int main(){
     
     int righe=65;
-    int colonne=12;
+    int colonne=9;
     string player;
     string portier[righe][colonne];
-    string layout[colonne]={"Nome: ","Squadra: ","Quotazione Attuale: ","Quotazione Iniziale: ","Partite Giocate: ","Media Voto: ","FantaMedia: ","Gol Subiti: ","Rigori Parati: ","Ammonizioni: ","Espulsioni: ","Autogol: "};
+    string layout[colonne]={"Nome: ","Squadra: ","Partite Giocate: ","Media Voto: ","FantaMedia: ","Gol Subiti: ","Rigori Parati: ","Ammonizioni: ","Espulsioni: ","Autogol: "};
    
     int i,j;
 
@@ -24,8 +24,8 @@ int main(){
 
         string nome="";
         string squadra="";
-        string quotazione_attuale_str="";
-        string quotazione_iniziale_str="";
+        // string quotazione_attuale_str="";
+        // string quotazione_iniziale_str="";
         string partite_giocate="";
         string media_voto="";
         string fanta_media="";
@@ -39,8 +39,8 @@ int main(){
             j=0; 
 
             getline(porta,squadra,';');
-            getline(porta,quotazione_attuale_str,';');
-            getline(porta,quotazione_iniziale_str,';');
+            // getline(porta,quotazione_attuale_str,';');
+            // getline(porta,quotazione_iniziale_str,';');
             getline(porta,partite_giocate,';');
             getline(porta,media_voto,';');
             getline(porta,fanta_media,';');
@@ -53,16 +53,16 @@ int main(){
             
             portier[i][j] = nome;
             portier[i][j+1] = squadra;
-            portier[i][j+2] = quotazione_attuale_str;
-            portier[i][j+3] = quotazione_iniziale_str;
-            portier[i][j+4] = partite_giocate;
-            portier[i][j+5] = media_voto;
-            portier[i][j+6] = fanta_media;
-            portier[i][j+7] = gol_subiti;
-            portier[i][j+8] = rigori_parati;
-            portier[i][j+9] = ammonizioni;
-            portier[i][j+10] = espulsioni;
-            portier[i][j+11] = autogol;
+            // portier[i][j+2] = quotazione_attuale_str;
+            // portier[i][j+3] = quotazione_iniziale_str;
+            portier[i][j+2] = partite_giocate;
+            portier[i][j+3] = media_voto;
+            portier[i][j+4] = fanta_media;
+            portier[i][j+5] = gol_subiti;
+            portier[i][j+6] = rigori_parati;
+            portier[i][j+6] = ammonizioni;
+            portier[i][j+7] = espulsioni;
+            portier[i][j+8] = autogol;
 
             i++;            
         }
