@@ -57,7 +57,7 @@ int main(){
                     break;
                 }
             }
-            cout<<"CERCHI ALTRI GIOCATORI?"<<endl;
+            cout<<"CERCHI ALTRI GIOCATORI? ";
             cin>>player;
         }
     }
