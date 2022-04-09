@@ -10,6 +10,7 @@ int main(){
     int colonne=4;
     string player;
     string portier[righe][colonne];
+    string layout[colonne]={"Nome: ","Squadra: ","Quotazione Attuale: ","Quotazione Iniziale: "};
    
     int i,j;
 
@@ -48,9 +49,9 @@ int main(){
         while(player != "fine"){
             for(int i=0;i<righe;i++){
                 if(player == portier[i][0]){
-                    cout<<"Nome   Squadra   Q.A   Q.I"<<endl;
                     for(int j=0;j<colonne;j++){
-                        cout<<portier[i][j]<<" ";
+                        cout<<layout[j];
+                        cout<<portier[i][j]<<endl;
                     }
                     cout<<endl<<endl;
                     break;
