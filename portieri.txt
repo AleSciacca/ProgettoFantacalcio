@@ -5,7 +5,7 @@ ANDRENACCI;Genoa;0;0;0;0;0;0;0;0
 ARESTI;Cagliari;0;0;0;0;0;0;0;0
 AUDERO;Sampdoria;22;6,14;4,39;38;0;1;0;0
 BARDI;Bologna;0;0;0;0;0;0;0;0
-Belec;Salernitana;20;6,08;3,82;45;0;0;0;0
+BELEC;Salernitana;20;6,08;3,82;45;0;0;0;0
 BERARDI A.;Verona;0;0;0;0;0;0;0;0
 BERISHA;Torino;4;6,12;5,5;2;0;1;0;0
 BERTINATO;Venezia;0;0;0;0;0;0;0;0
