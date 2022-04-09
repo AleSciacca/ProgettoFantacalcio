@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
     
-    int righe=65;
+    int righe=75;
     int colonne=9;
     string player;
     string portier[righe][colonne];
@@ -24,8 +24,6 @@ int main(){
 
         string nome="";
         string squadra="";
-        // string quotazione_attuale_str="";
-        // string quotazione_iniziale_str="";
         string partite_giocate="";
         string media_voto="";
         string fanta_media="";
@@ -36,11 +34,10 @@ int main(){
         string autogol="";
 
         while(getline(porta,nome,';')){ //chiediamo al tool di andare avanti fino a quando non trova un carattere ";" ,tutto ciò che legge prima verra messo in cognome
+            
             j=0; 
 
             getline(porta,squadra,';');
-            // getline(porta,quotazione_attuale_str,';');
-            // getline(porta,quotazione_iniziale_str,';');
             getline(porta,partite_giocate,';');
             getline(porta,media_voto,';');
             getline(porta,fanta_media,';');
@@ -53,8 +50,6 @@ int main(){
             
             portier[i][j] = nome;
             portier[i][j+1] = squadra;
-            // portier[i][j+2] = quotazione_attuale_str;
-            // portier[i][j+3] = quotazione_iniziale_str;
             portier[i][j+2] = partite_giocate;
             portier[i][j+3] = media_voto;
             portier[i][j+4] = fanta_media;
