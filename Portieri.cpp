@@ -10,7 +10,7 @@ int main(){
     int colonne=4;
     string player;
     string portier[righe][colonne];
-    string layout[colonne]={"Nome","Squadra","Q.A","Q.I"};
+   
     int i,j;
 
     string addio="GRAZIE PER AVER USATO IL MIO TOOL <3";
@@ -67,8 +67,6 @@ int main(){
             cin>>player;
         }
     }
-    if(player == "fine"){
-    cout<<addio;
-    }
+    
     return 0;
 }
