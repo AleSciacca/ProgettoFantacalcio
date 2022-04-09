@@ -16,7 +16,7 @@ int main(){
 
     string addio="GRAZIE PER AVER USATO IL MIO TOOL <3";
 
-    ifstream porta("portier.txt");
+    ifstream porta("portieri.txt");
 
     if(!porta){
         cout<<"Problema apertura file...";
