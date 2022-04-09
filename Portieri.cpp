@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    int DIM=0;
+    
     int righe=65;
     int colonne=4;
     string player;
@@ -25,11 +25,8 @@ int main(){
        string squadra="";
 
         string quotazione_attuale_str="";
-        int quotazione_attuale=0;
 
         string quotazione_iniziale_str="";
-        int quotazione_iniziale=0;
-
 
         while(getline(porta,nome,';')){ 
             j=0; //chiediamo al tool di andare avanti fino a quando non trova un carattere ";" ,tutto ciò che legge prima verra messo in cognome
@@ -43,12 +40,8 @@ int main(){
             portier[i][j+2] = quotazione_attuale_str;
             portier[i][j+3] = quotazione_iniziale_str;
 
-            DIM++;
             i++;            
         }
-
-        righe=DIM;
-        colonne=4;
 
         cout<<"INSERIRE IL NOME DEL GIOCATORE CHE STAI CERCANDO: ";
         cin>>player;
