@@ -67,6 +67,8 @@ int main(){
             cin>>player;
         }
     }
+    if(player == "fine"){
     cout<<addio;
-
+    }
+    return 0;
 }
