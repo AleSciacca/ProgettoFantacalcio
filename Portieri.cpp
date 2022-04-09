@@ -35,8 +35,9 @@ int main(){
         string espulsioni="";
         string autogol="";
 
-        while(getline(porta,nome,';')){ 
-            j=0; //chiediamo al tool di andare avanti fino a quando non trova un carattere ";" ,tutto ciò che legge prima verra messo in cognome
+        while(getline(porta,nome,';')){ //chiediamo al tool di andare avanti fino a quando non trova un carattere ";" ,tutto ciò che legge prima verra messo in cognome
+            j=0; 
+
             getline(porta,squadra,';');
             getline(porta,quotazione_attuale_str,';');
             getline(porta,quotazione_iniziale_str,';');
