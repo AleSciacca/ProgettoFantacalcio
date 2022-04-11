@@ -6,11 +6,11 @@ using namespace std;
 
 int main(){
     
-    int righe=244;
-    int colonne=11;
+    int righe=245;
+    int colonne=13;
     string player;
     string difensori[righe][colonne];
-    string layout[colonne]={"Nome: ","Squadra: ","Partite Giocate: ","Media Voto: ","FantaMedia: ","Gol Subiti: ","Rigori Parati: ","Rigori Segnati: ","Rigori Sbagliati: ","Ammonizioni: ","Espulsioni: ","Autogol: "};
+    string layout[colonne]={"Nome: ","Squadra: ","Partite Giocate: ","Media Voto: ","FantaMedia: ","Gol Fatti: ","Rigori Calciati: ","Rigori Segnati: ","Rigori Sbagliati: ","Assist: ","Ammonizioni: ","Espulsioni: ","Autogol: "};
    
     int i,j;
 
@@ -25,9 +25,11 @@ int main(){
         string partite_giocate="";
         string media_voto="";
         string fanta_media="";
+        string gol_fatti="";
         string rigori_calciati="";
         string rigori_segnati="";
         string rigori_sbagliati="";
+        string assist="";
         string ammonizioni="";
         string espulsioni="";
         string autogol="";
@@ -40,9 +42,11 @@ int main(){
             getline(difesa,partite_giocate,';');
             getline(difesa,media_voto,';');
             getline(difesa,fanta_media,';');
+            getline(difesa,gol_fatti,';');
             getline(difesa,rigori_calciati,';');
             getline(difesa,rigori_segnati,';');
             getline(difesa,rigori_sbagliati,';');
+            getline(difesa,assist,';');
             getline(difesa,ammonizioni,';');
             getline(difesa,espulsioni,';');
             getline(difesa,autogol);
@@ -53,12 +57,14 @@ int main(){
             difensori[i][j+2] = partite_giocate;
             difensori[i][j+3] = media_voto;
             difensori[i][j+4] = fanta_media;
-            difensori[i][j+5] = rigori_calciati;
-            difensori[i][j+6] = rigori_segnati;
-            difensori[i][j+7] = rigori_sbagliati;
-            difensori[i][j+8] = ammonizioni;
-            difensori[i][j+9] = espulsioni;
-            difensori[i][j+10] = autogol;
+            difensori[i][j+5] = gol_fatti;
+            difensori[i][j+6] = rigori_calciati;
+            difensori[i][j+7] = rigori_segnati;
+            difensori[i][j+8] = rigori_sbagliati;
+            difensori[i][j+9] = assist;
+            difensori[i][j+10] = ammonizioni;
+            difensori[i][j+11] = espulsioni;
+            difensori[i][j+12] = autogol;
 
             i++;            
         }
