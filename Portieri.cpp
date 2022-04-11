@@ -7,7 +7,7 @@ using namespace std;
 int main(){
     
     int righe=75;
-    int colonne=9;
+    int colonne=10;
     string player;
     string portier[righe][colonne];
     string layout[colonne]={"Nome: ","Squadra: ","Partite Giocate: ","Media Voto: ","FantaMedia: ","Gol Subiti: ","Rigori Parati: ","Ammonizioni: ","Espulsioni: ","Autogol: "};
@@ -55,9 +55,9 @@ int main(){
             portier[i][j+4] = fanta_media;
             portier[i][j+5] = gol_subiti;
             portier[i][j+6] = rigori_parati;
-            portier[i][j+6] = ammonizioni;
-            portier[i][j+7] = espulsioni;
-            portier[i][j+8] = autogol;
+            portier[i][j+7] = ammonizioni;
+            portier[i][j+8] = espulsioni;
+            portier[i][j+9] = autogol;
 
             i++;            
         }
