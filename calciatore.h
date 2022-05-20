@@ -16,6 +16,7 @@ class Calciatore{
         int ammonizioni;
         int espulsioni;
 
+        
     public:
 
         Calciatore(std::string _nome,std::string _squadra,int _partite_giocate,float _media_voto,float _fanta_media,int _ammonizioni,int _espulsioni) : nome(_nome), squadra(_squadra), partite_giocate(_partite_giocate), media_voto(_media_voto), fanta_media(_fanta_media), ammonizioni(_ammonizioni), espulsioni(_espulsioni) {}
@@ -33,8 +34,8 @@ class Calciatore{
             std::getline(input,espulsioni_str);
 
             obj.partite_giocate=std::atoi(partite_giocate_str.c_str());
-            obj.media_voto=std::stof(media_voto_str);
-            obj.fanta_media=std::stof(fanta_media_str);
+            obj.media_voto=std::atof(media_voto_str.c_str());
+            obj.fanta_media=std::atof(fanta_media_str.c_str());
             obj.ammonizioni=std::atoi(ammonizioni_str.c_str());
             obj.espulsioni=std::atoi(espulsioni_str.c_str());
 
@@ -46,6 +47,8 @@ class Calciatore{
 			output << "Nome:" <<obj.nome<<endl<< "squadra:" <<obj.squadra<<endl<< "Partite Giocate:" <<obj.partite_giocate<<endl<< "Media Voto:" <<obj.media_voto<<endl<< "Fanta Media:" <<obj.fanta_media<<endl<< "Ammonizioni:" <<obj.ammonizioni<<endl<< "Espulzioni:" <<obj.espulsioni<<endl;
             return output;
 		}
+
+       
 };
 
 #endif
