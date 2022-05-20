@@ -24,7 +24,7 @@ class Calciatore{
 
         friend std::istream &operator>>(std::istream &input, Calciatore& obj){
             std::string partite_giocate_str, media_voto_str, fanta_media_str, ammonizioni_str, espulsioni_str;
-            std::getline(input,obj.nome,";");
+            std::getline(input,obj.nome,';');
             std::getline(input,obj.squadra,';');
             std::getline(input,partite_giocate_str,';');
             std::getline(input,media_voto_str,';');
